@@ -17,7 +17,6 @@ export default class App extends Component {
   }
 
   componentWillMount() {
-    console.log(styles.editorPad, '==========')
     this.loadTimeLines();
     setInterval(() => {
       this.loadTimeLines()
